@@ -1,5 +1,16 @@
+%clear all
+%[song,fs]= audioread('violin.wav');
+%song1=song(1:fs*10);
+%spectrogram(song1, 256, [], [], fs, 'yaxis');
+%sound(song1,fs)
+
 clear all
-[song,fs]= audioread('violin.wav');
-song1=song(1:fs*10);
-spectrogram(song1, 256, [], [], fs, 'yaxis');
+[song,fs]= audioread('howsoon.wav');
+song1=song(1:fs*3);
 sound(song1,fs)
+window=hamming(12000);
+nooverlap=1000;
+nfft=1024;
+[S, F, T, P]=spectrogram(song1, window, nooverlap, nfft, fs, 'yaxis');
+surf(T, F, 10*log10(P))
+

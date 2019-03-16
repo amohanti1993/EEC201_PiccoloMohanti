@@ -4,7 +4,7 @@ Mark Allen Piccolo and Anupam Mohanti are trying to build a LPC vocoder using Ma
 
 Team Members: 
 NAME	             |  CONTACT INFO	             |   STUDENT ID
-Mark Allen Piccolo |  mallenpiccolo@ucdavis.edu	 |   
+Mark Allen Piccolo |  mallenpiccolo@ucdavis.edu	 |   994172581
 Anupam Mohanti	   |  amohanti@ucdavis.edu       |   9116681128
 
 The details of the project can be found on the Project2019B.pdf file in this repository.
